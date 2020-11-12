@@ -4,11 +4,11 @@ def most_frequent():
 myDict = {
 	"I": 4,
 	"S": 4,
-	"P": 2,
 	"M": 1
+	"P": 2,
 }
 
 
 most_frequent()
 
-print(myDict)
+print(sorted(myDict.items()))
